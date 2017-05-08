@@ -42,6 +42,17 @@
         </license>
     </licenses>
 
+    <distributionManagement>
+        <repository>
+            <id>aurora-release</id>
+            <url>https://nexus.auroraplatform.com/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>aurora-snapshot</id>
+            <url>https://nexus.auroraplatform.com/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <prerequisites>
         <maven>3.1.0</maven>
     </prerequisites>
