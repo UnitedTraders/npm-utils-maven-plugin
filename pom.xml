@@ -27,8 +27,6 @@
                 <version>1.0-m5.1</version>
                 <configuration>
                     <enableSshAgent>true</enableSshAgent>
-                    <noReleaseBuild>false</noReleaseBuild>
-                    <noDeploy>true</noDeploy>
                 </configuration>
             </plugin>
         </plugins>
