@@ -1,6 +1,5 @@
-package com.unitedtraders.maven.plugins.npmutils;
+package com.github.unitedtraders.maven.plugins.npmutils;
 
-import com.fasterxml.jackson.core.*;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;

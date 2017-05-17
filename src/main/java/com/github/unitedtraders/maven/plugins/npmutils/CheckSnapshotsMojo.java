@@ -1,4 +1,4 @@
-package com.unitedtraders.maven.plugins.npmutils;
+package com.github.unitedtraders.maven.plugins.npmutils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.maven.plugin.AbstractMojo;
@@ -10,12 +10,10 @@ import org.apache.maven.plugins.annotations.Parameter;
 import org.apache.maven.project.MavenProject;
 
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
-import java.util.Properties;
 
 /**
  * Mojo to validate does package.json refer SNAPSHOT versions when project version is release

@@ -1,4 +1,4 @@
-package com.unitedtraders.maven.plugins.npmutils;
+package com.github.unitedtraders.maven.plugins.npmutils;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;

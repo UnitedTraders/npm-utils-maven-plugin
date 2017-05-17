@@ -5,7 +5,7 @@ Maven plugin for package.json validations
 
 Add plugin to dependencies
 ```xml
-    <groupId>com.unitedtraders</groupId>
+    <groupId>com.github.unitedtraders</groupId>
     <artifactId>npm-utils-maven-plugin</artifactId>
     <version>${npm-utils-maven-plugin.version}</version>
 
