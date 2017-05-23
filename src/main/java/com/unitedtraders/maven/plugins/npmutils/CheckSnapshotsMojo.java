@@ -73,6 +73,10 @@ public final class CheckSnapshotsMojo extends AbstractMojo {
     }
 
     private void checkDependencies(Map<String, String> deps) throws MojoExecutionException {
+        if (deps == null) {
+            return;
+        }
+
         for (Map.Entry<String, String> dep: deps.entrySet()) {
             getLog().info(String.format("Checking %s version %s", dep.getKey(), dep.getValue()));
             for (String stopVersion: stopVersions) {
